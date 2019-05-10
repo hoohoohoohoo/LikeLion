@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Jua|Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Jua|Nanum+Gothic');
+
+body {
+  height: 1500px;
+  margin: 0;
+}
+
+nav {
+  font-family: 'Jua', sans-serif;
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  color: black;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.nav {
+  float: left;
+  width: 50%;
+  padding-top: 15px;
+}
+
+.nav_a {
+  padding-top: 40px;
+  text-align: right;
+  float: right;
+  color: rgb(91, 91, 91);
+  font-size: 15px;
+  list-style: none;
+}
+
+.nav_a a {
+  margin-left: 50px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+a:link{
+  color:black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+header {
+  color: white;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  background-image: url(http://file3.instiz.net/data/file3/2018/02/19/0/6/0/060056045c27725cafa8f7e3f4ccc51d.jpg);
+  background-size: 66% 600px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-top: 80px;
+  font-size: 60px;
+  text-align: center;
+}
+
+header p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Poor Story';
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  width: 960px;
+  height: 100%;
+}
+
+section {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+
+}
+
+article img {
+  height: 310px;
+  width: 310px;
+}
+
+article {
+  margin: 2px 2px 2px 2px;
+  display: inline-block;
+}
+article p{
+  margin-top: 30px;
+  font-size: 15px;
+}
+footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 50px 50px 50px 50px;
+  background-color: black;
+  color: white;
+}
