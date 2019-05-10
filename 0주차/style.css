@@ -1,0 +1,21 @@
+@font-face { 
+	font-family: 'NIXGONM-Vb';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') 
+	format('woff'); font-weight: normal; font-style: normal; 
+}
+
+
+
+.introduce{
+	color: orange;
+	font-family: 'NIXGONM-Vb';
+	padding: 30px;
+	margin: 40px;
+	background-image: url('http://cphoto.asiae.co.kr/listimglink/1/2017043010131271799_1.jpg');
+	background-size: 3px;
+}
+
+.contents{
+	color:blue;
+	font-size: 30px;
+}
